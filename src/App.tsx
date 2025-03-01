@@ -23,16 +23,17 @@ function App() {
       </main>
       <Footer />
     </div>
-    // <div>
-    //   <Header />
-    //   <main style={{ textAlign: "center", margin: "50px 0" }}>
-    //     <h1>Welcome to My React App</h1>
-    //     {users.map((user, index) => (
-    //       <UserCard key={index} name={user.name} age={user.age} />
-    //     ))}
-    //   </main>
-    //   <Footer />
-    // </div>
+    
+    /*<div>
+       <Header />
+       <main style={{ textAlign: "center", margin: "50px 0" }}>
+         <h1>Welcome to My React App</h1>
+         {users.map((user, index) => (
+           <UserCard key={index} name={user.name} age={user.age} />
+         ))}
+       </main>
+       <Footer />
+     </div> */
   );
 }
 
