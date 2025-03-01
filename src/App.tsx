@@ -4,6 +4,8 @@ import Header from "./components/Header"; // ✅ Correct Import
 import Footer from "./components/Footer";
 import UserCard from "./components/UserCard"; 
 import Counter from "./components/Counter";
+import Form from "./components/Form";
+import UserInputForm from "./components/UserInputForm";
 
 const users = [
   { name: "John Doe", age: 30 },
@@ -16,13 +18,27 @@ const users = [
 
 function App() {
   return (
+
     <div>
+      <h1>React Form Example</h1>
+      <UserInputForm />
+    </div>
+    
+      /* <div>
+        <Header />
+        <main style={{ textAlign: "center", margin: "100px 0 50px 0" }}>
+          <h2>Fill the Form</h2>
+          <Form />
+        </main>
+        <Footer />
+      </div> */
+  /* <div>
       <Header />
       <main style={{ textAlign: "center", margin: "100px 0 50px 0" }}>
         <Counter />
       </main>
       <Footer />
-    </div>
+    </div> */
     
     /*<div>
        <Header />
